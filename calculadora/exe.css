@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.fundo {
+    background-image: linear-gradient(45deg, black, rgb(125, 125, 129), black);
+    height: 100vh;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.calculadora {
+    height: 472px;
+    width: 242px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.tela {
+    height: 180px;
+    width: 242px;
+    position: absolute;
+    background-color: black;    
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+    
+}
+
+.resultado{
+    color: white;
+    margin-top: 85px;
+    margin-right: 14px;
+    float: right;
+    font-size: 80px;
+
+}
+
+.face {
+    margin-top: 160px;
+    margin-left: 10px;
+}
+
+.lc{
+    height: 50px;
+    width: 50px;
+    background-color: silver;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    margin: 3px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.lc:hover{
+    background-color: #4419ff;
+}
+
+.ll {
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    color: white;
+    border-radius: 30px;
+    margin: 3px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.ll:hover{
+    background-color: #4419ff;
+}
+
+.le {
+    height: 50px;
+    width: 50px;
+    background-color: #5a5a5a;
+    color: white;
+    border-radius: 30px;
+    margin: 3px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.le:hover{
+    background-color: #4419ff;
+}
+
+.l {
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    color: white;
+    border-radius: 30px;
+    margin-right: 10px;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.l:hover{
+    background-color: #4419ff;
+}
+
+.lec{
+    height: 50px;
+    width: 50px;
+    background-color: #5a5a5a;
+    color: white;
+    border-radius: 30px;
+    margin-right: 6px;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.lec:hover{
+    background-color: #4419ff;
+}
+
+.lep {
+    height: 50px;
+    width: 50px;
+    background-color: #5a5a5a;
+    color: white;
+    border-radius: 30px;
+    margin-left: 3px;
+    float: left;
+    width: 106px;
+    padding-right: 55px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.lep:hover{
+    background-color: #4419ff;
+}
